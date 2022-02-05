@@ -7286,12 +7286,10 @@ section.tokenomics .infographics > *:nth-child(11) .content {
 
 .container_logo {
   position: relative;
-  margin: auto;
-  width: 531px;
-  height: 531px;
-  border-radius: 50%;
-  -webkit-animation: rotation1 20s infinite linear;
-          animation: rotation1 20s infinite linear;
+  margin: 0 auto;
+  width: 530px;
+  height: 530px;
+  /* border-radius: 50%; */
   margin-top: -4rem;
 }
 
@@ -7301,8 +7299,10 @@ section.tokenomics .infographics > *:nth-child(11) .content {
   left: 0;
   right: 0;
   margin: 0 auto;
-  width: 520px;
-  height: 520px;
+  width: 530px;
+  height: 530px;
+  -webkit-animation: rotation1 20s infinite linear;
+          animation: rotation1 20s infinite linear;
 }
 
 @-webkit-keyframes rotation1 {
@@ -7334,9 +7334,9 @@ section.tokenomics .infographics > *:nth-child(11) .content {
   left: 0;
   right: 0;
   margin: 0 auto;
-  width: 450px;
-  height: 450px;
-  top: 40px;
+  width: 430px;
+  height: 430px;
+  top: 52px;
   animation: rotation1 10s infinite reverse linear;
 }
 
@@ -7372,7 +7372,6 @@ section.tokenomics .infographics > *:nth-child(11) .content {
   width: 233px;
   height: 194px;
   top: 170px;
-  animation: rotation1 20s infinite reverse linear;
 }
 
 @-webkit-keyframes rotation3 {
@@ -10609,8 +10608,8 @@ section.fisrt-slide .wrapper .fs-right .fs-right__head .fs-head {
   }
 
   .container_logo {
-    width: 400px;
-    height: 400px;
+    width: 540px;
+    height: 540px;
   }
 
   #logo1 {
@@ -11419,8 +11418,8 @@ section.fisrt-slide .wrapper .fs-right .fs-right__head .fs-head {
   }
 
   .container_logo {
-    width: 346px;
-    height: 346px;
+    width: 540px;
+    height: 540px;
     margin-top: -2rem;
   }
 
@@ -12704,8 +12703,8 @@ section.fisrt-slide .wrapper .fs-right .fs-right__head .fs-head {
   }
 
   .container_logo {
-    width: 213px;
-    height: 213px;
+    width: 540px;
+    height: 540px;
   }
 
   #logo1 {
